@@ -26,7 +26,7 @@ namespace Consumer.Tests
         {
             _mockProviderService
                 .Given("There is a card with card id '1'")
-                .UponReceiving("A Get Request to retrieve the cards")
+                .UponReceiving("A Get Request to retrieve the card")
                 .With( new ProviderServiceRequest()
                 {
                     Method = HttpVerb.Get,
